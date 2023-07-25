@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-color: #A9A9A9;
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.top-section{
+    width: 900px;
+    height: 1061px;
+    background-color: white;
+    margin-top: 27px;
+    margin-bottom: 27px;
+    border-radius: 13px;
+}
+.span{
+    color: #04175A;
+    font-size: 35px;
+}
+.top-section h1{
+    padding-top: 43px;
+    padding-left: 36px;
+    font-size: 57px;
+    font-weight: 600;
+}
+.form-container{
+    display: flex;
+    gap: 42px;
+    margin-left: 36px;
+}
+.address-container{
+    margin-top: 5px;
+    margin-left: 36px;
+}
+.form-section{
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    margin-top: 46px;
+}
+label{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+input, select{
+    border-radius: 5px;
+    border: 1px solid #000;
+    width: 393px;
+    height: 66px;
+    margin-bottom: 26px;
+}
+.address {
+    margin-bottom: 56px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    width: 825px;
+    height: 164px;
+}
+select{
+    padding-left: 15px;
+    font-size: 15px;
+}
+input[type="date"] {
+    padding-left: 15px;
+    font-size: 15px;
+}
+::placeholder{
+    padding-left: 15px;
+    font-size: 15px;
+}
+.CV input{
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 26px;
+    padding-top: 23px;
+}
+.CV label{
+    margin-top: 10px;
+}
+.date label{
+    margin-top: 10px;
+}
+.button{
+    padding-top: 70px;
+    padding-right: 31px;
+    display: flex;
+    justify-content: flex-end;
+}
+button{
+    width: 168px;
+    height: 46px;
+    border-radius: 5px;
+    background: #F00;
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+button:hover{
+    background-color: #ccc;
+    border: 2px solid red;
+    color: black;
+    transition: 0.3s ease-in;
+}

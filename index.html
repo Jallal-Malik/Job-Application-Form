@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+        <section class="top-section">
+            <div>
+                <h1>Job Application 
+                    <span class="span">(Web)</span>
+                </h1>
+                <form action="">
+                    <div class="form">
+                        <div class="form-container">
+                            <div class="form-section">
+                                <label for="first name">First Name</label>
+                                <input type="first name" name="first name" id="first name" placeholder="Enter your First Name" required>
+                            </div>
+                            <div class="form-section">
+                                <label for="last name">Last Name</label>
+                                <input type="last name" name="last name" id="last name" placeholder="Enter your Last Name" required>
+                            </div>
+                        </div>
+                        <div class="form-container">
+                            <div class="form-section">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+                            </div>
+                            <div class="form-section">
+                                <label for="job-role">Job Role</label>
+                                <select name="job-role" id="job-role"> 
+                                    <option value="">Select Job Role</option>
+                                    <option value="front-end">Frontend Developer</option>
+                                    <option value="back-end">Backend Developer</option>
+                                    <option value="full-stack">Full Stack Developer</option>
+                                    <option value="ui-ux">UI UX Designer</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="address-container">
+                            <div class="form-section">
+                                <label for="address">Address</label>
+                                <input class="address" type="text" name="address" id="address">
+                            </div>
+                        </div>
+                        <div class="form-container">
+                            <div class="form-section">
+                                <label for="city">City</label>
+                                <input type="city" name="city" id="city" placeholder="Enter your City Name" required>
+                            </div>
+                            <div class="form-section">
+                                <label for="pincode">Pincode</label>
+                                <input type="number" name="pincode" id="pincode" placeholder="Enter your Pincode" required>
+                            </div>
+                        </div>
+                        <div class="form-container">
+                            <div class="form-section date">
+                                <label for="date">Start Date</label>
+                                <input type="date" name="date" id="date" required>
+                            </div>
+                            <div class="form-section CV">
+                                <label for=""> Upload Your Cv</label>
+                                <input type="file" name="file" id="Upload" required>
+                            </div>
+                        </div>
+                            <div class="button">
+                                <button type="submit">Apply Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
